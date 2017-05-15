@@ -1,0 +1,7 @@
+$text="the black cat has white eyes";
+if($text=~ m/(cat)/)
+{
+print "exact match $&";
+print "word befor string $`";
+print "word afte string $'";
+}
